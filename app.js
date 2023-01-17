@@ -8,6 +8,8 @@ let currentPosition = userStart
 const ballStartPosition = [270,30]
 let ballCurrentPosition = ballStartPosition
 
+let timerId
+
 
 //Create Block
 
@@ -101,5 +103,16 @@ const ball = document.createElement('div')
 ball.classList.add('ball')
 drawBall()
 grid.appendChild(ball)
+
+
+// Moving the ball 
+
+function moveBall(){
+    ballCurrentPosition[0] += 2
+    ballCurrentPosition[1] += 2
+    drawBall()
+}
+
+timerId = setInterval(moveBall,30)
 
 
