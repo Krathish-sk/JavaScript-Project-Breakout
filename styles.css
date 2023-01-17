@@ -19,3 +19,11 @@
     position: absolute;
     background-color: aqua;
 }
+
+.ball{
+    width: 20px;
+    height:20px;
+    position:absolute;
+    border-radius: 10px;
+    background-color: darkorange;
+}
