@@ -1,6 +1,11 @@
 const grid = document.querySelector('.grid')
 const blockWidth = 100
 const blockHeight = 50
+
+const userStart = [230,10]
+let currentPosition = userStart
+
+
 //Create Block
 
 class Block{
@@ -45,3 +50,11 @@ function addBlocks(){
 }
 
 addBlocks()
+
+
+// Adding user
+const user = document.createElement('div')
+user.classList.add('user')
+user.style.bottom = currentPosition[1] +'px'
+user.style.left = currentPosition[0] + 'px'
+grid.appendChild(user)
