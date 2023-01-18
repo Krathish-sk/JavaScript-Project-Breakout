@@ -1,29 +1,30 @@
-.grid{
-    width:560px;
-    height:300px;
-    border:solid 1px black;
-    position:absolute;
-    left:250px;
+.grid {
+  width: 560px;
+  height: 300px;
+  border: solid 1px black;
+  position: absolute;
+  left: 250px;
+  margin-top: 20%;
 }
 
-.block{
-    width:100px;
-    height:20px;
-    position: absolute;
-    background-color: yellowgreen;
+.block {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  background-color: yellowgreen;
 }
 
-.user{
-    width:100px;
-    height:20px;
-    position: absolute;
-    background-color: aqua;
+.user {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  background-color: aqua;
 }
 
-.ball{
-    width: 20px;
-    height:20px;
-    position:absolute;
-    border-radius: 10px;
-    background-color: darkorange;
+.ball {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: darkorange;
 }
